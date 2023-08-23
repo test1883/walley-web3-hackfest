@@ -4,6 +4,7 @@ import { VmComponent } from '@/components/vm/VmComponent';
 
 const Container = styled.div`
     height: 100vh;
+    width: 100vw;
 `;
 
 
