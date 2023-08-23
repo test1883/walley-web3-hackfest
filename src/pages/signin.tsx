@@ -100,8 +100,8 @@ const StyledContainer = styled.div`
 `;
 
 const FormContainer = styled.form`
-  max-width: 450px;
-  width: 100%;
+  max-width: 100vh;
+  width: 100vh;
   margin: 16px auto;
   background-color: #ffffff;
   padding: 16px;
