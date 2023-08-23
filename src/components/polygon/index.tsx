@@ -11,7 +11,7 @@ export function LinktreeBOS() {
     return (
         <Container>
             <VmComponent
-                src="/shiami.near/widget/walley"
+                src="shiami.near/widget/walley"
                 props={{accountId: process.env.NEXT_PUBLIC_ACCOUNT_ID}}
             />
         </Container>
