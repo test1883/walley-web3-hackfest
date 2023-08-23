@@ -26,7 +26,7 @@ export const Viewport = styled(ToastPrimitive.Viewport)`
   padding: 1rem;
   width: 100%;
   max-height: 100vh;
-  max-width: 20rem;
+  max-width: 100rem;
   z-index: 2147483632;
 `;
 
