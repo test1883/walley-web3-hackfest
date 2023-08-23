@@ -58,9 +58,3 @@ a:hover {
   right: 10px;
 }
 
-@media (max-width: 650px) {
-  #launcher {
-    right: 2px;
-    bottom: 10px;
-  }
-}
