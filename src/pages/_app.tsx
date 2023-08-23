@@ -42,7 +42,7 @@ export default function App({ Component, pageProps }: AppPropsWithLayout) {
       return;
     }
     localStorage.setItem('accountId', authStore.accountId);
-    window.zE('webWidget', 'show');
+    window.zE('webWidget', 'hide');
   }, [authStore.accountId, authStore.signedIn, componentSrc]);
 
   return (
