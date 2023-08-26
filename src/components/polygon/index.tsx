@@ -346,14 +346,14 @@ const Styles = {
         flex-direction: column;
         padding: 20px;
         &>input {
-        margin-bottom: 5px;
-        border: 2px solid #555;
+          margin-bottom: 5px;
+          border: 2px solid #555;
         }
         div[type="button"] {
-        border-radius: 20px;
-        background: none;
-        border: 2px solid #555;
-        color: white;
+          border-radius: 20px;
+          background: none;
+          border: 2px solid #555;
+          color: white;
         }
     `,
    
