@@ -312,6 +312,10 @@ const Styles = {
        grid-template-columns: repeat(1, 1fr);
        flex-direction: column;
        padding: 20px;
+       @media screen and (max-width: 500px) {
+          width: 90vw;
+          height: 90vw;
+       }
        &>input {
          margin-bottom: 5px;
          border: 2px solid #555;
@@ -348,6 +352,11 @@ const Styles = {
         grid-template-columns: repeat(1, 1fr);
         flex-direction: column;
         padding: 20px;
+        
+        @media screen and (max-width: 500px) {
+          width: 90vw;
+          height: 90vw;
+        }
         &>input {
           margin-bottom: 5px;
           border: 2px solid #555;
