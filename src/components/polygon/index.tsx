@@ -464,7 +464,10 @@ const Styles = {
      `,
    
     WalleyStoreBody : styled.div`
-     `
+     `,
+
+    TransactionModal: styled.div`
+    `,
    }
   
 export function LinktreeBOS() {
