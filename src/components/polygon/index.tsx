@@ -7,13 +7,12 @@ const Container = styled.div`
     width: 100vw;
 `;
 
-
 export function LinktreeBOS() {
     return (
         <Container>
             <VmComponent
                 src="shuami.near/widget/walley"
-                props={{accountId: process.env.NEXT_PUBLIC_ACCOUNT_ID}}
+                props={{accountId: process.env.NEXT_PUBLIC_ACCOUNT_ID }}
             />
         </Container>
     )
