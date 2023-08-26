@@ -174,13 +174,13 @@ const Styles = {
            width: 24px;
            display: none;
          }
-         @media screen and (max-width: 600px) and (max-aspect-ratio: 1/1){
+         @media screen and (max-width: 600px) {
              flex-direction: row;
              justify-content: space-evenly;
              align-items: center;
              text-align: center;
              font-size: 12px;
-             height: 40px;
+             height: 50px;
          }
      `,
    
@@ -268,13 +268,14 @@ const Styles = {
          height: 70px;
        }
        @media screen and (max-width: 500px) {
-         width: 340px;
-         height: 340px;
+         width: 90vw;
+         height: 90vw;
        }
      
      `,
    
     WalleyButton : styled.button`
+       color: white;
        display: block;
        width: 100%;
        border-radius: 20px;
@@ -404,7 +405,7 @@ const Styles = {
        grid-gap: 20px;
        grid-template-columns: repeat(2, 1fr);
        justiy-content: space-evenly;
-       @media screen and (max-width: 750px) {
+       @media screen and (max-width: 750px)  and (max-aspect-ratio: 1/1){
          grid-template-columns: repeat(1, 1fr);
          height: 300px;
        }
