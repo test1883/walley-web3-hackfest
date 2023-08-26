@@ -96,6 +96,7 @@ const Styles = {
              color: white;
              margin-left: 20px;
              transition: all .2s ease-out;
+             border-radius: 20px;
              &:hover {
                scale: 1.05;
                background:#FA9703;
