@@ -314,7 +314,6 @@ const Styles = {
        padding: 20px;
        @media screen and (max-width: 500px) {
           width: 90vw;
-          height: 90vw;
        }
        &>input {
          margin-bottom: 5px;
