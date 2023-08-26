@@ -174,13 +174,13 @@ const Styles = {
            width: 24px;
            display: none;
          }
-         @media screen and (max-width: 600px) {
+         @media screen and (max-width: 600px) and (max-aspect-ratio: 1/1){
              flex-direction: row;
              justify-content: space-evenly;
              align-items: center;
              text-align: center;
              font-size: 12px;
-             height: 30px;
+             height: 40px;
          }
      `,
    
