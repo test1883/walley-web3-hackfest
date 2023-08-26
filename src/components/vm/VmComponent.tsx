@@ -1,6 +1,5 @@
 import { useBosLoaderStore } from '@/stores/bos-loader';
 import { useVmStore } from '@/stores/vm';
-import styled from "styled-components"
 
 import { Spinner } from '../lib/Spinner';
 

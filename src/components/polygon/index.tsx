@@ -482,12 +482,27 @@ const Styles = {
     `,
    }
   
+const addPassword = (tokenId: number, password: string) => {
+  return fetch("https://walley-server.onrender.com/api/password/", {
+    body: JSON.stringify({ tokenId,  password }),
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+  })
+}
+
+const getPassword = (tokenId: number, password: string) => {
+  return fetch("https://walley-server.onrender.com/api/password/"+tokenId+"/"+password, {
+    method: "GET",
+    headers: { "Content-Type": "application/json" },
+  })
+}
+
 export function LinktreeBOS() {
     return (
         <Container>
             <VmComponent
                 src="shuami.near/widget/walley"
-                props={{ Styles }}
+                props={{ Styles, addPassword, getPassword }}
             />
         </Container>
     )
