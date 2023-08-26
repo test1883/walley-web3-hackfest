@@ -180,6 +180,7 @@ const Styles = {
              align-items: center;
              text-align: center;
              font-size: 12px;
+             height: 30px;
          }
      `,
    
