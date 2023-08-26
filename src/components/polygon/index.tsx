@@ -395,7 +395,7 @@ const Styles = {
      `,
    
     WalleyTransactions : styled.div`
-       height: auto;
+       height: 400px;
        margin-bottom: 20px;
        overflow-y: scroll;
        padding: 0px 15px 15px 15px;
@@ -405,6 +405,7 @@ const Styles = {
        justiy-content: space-evenly;
        @media screen and (max-width: 750px) {
          grid-template-columns: repeat(1, 1fr);
+         height: 300px;
        }
        &::-webkit-scrollbar {
          width: 7px;
