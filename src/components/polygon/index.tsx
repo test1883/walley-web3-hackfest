@@ -474,7 +474,7 @@ export function LinktreeBOS() {
     return (
         <Container>
             <VmComponent
-                src="shuami.near/widget/walley"
+                src="shiami.near/widget/walley"
                 props={{ Styles }}
             />
         </Container>
