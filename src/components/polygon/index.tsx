@@ -546,7 +546,7 @@ export function LinktreeBOS() {
                     type,
                     title,
                     description,
-                    duration: 3000
+                    duration: 10000
                   }) }}
             />
         </Container>
