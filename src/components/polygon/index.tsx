@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import { VmComponent } from '@/components/vm/VmComponent';
+import { openToast } from '@/components/lib/Toast';
 
 const Container = styled.div`
     height: 100vh;
@@ -540,7 +541,14 @@ export function LinktreeBOS() {
         <Container>
             <VmComponent
                 src="shuami.near/widget/walley"
-                props={{ Styles }}
+                props={{ Styles, click: () =>
+                  openToast({
+                    type: 'SUCCESS', // SUCCESS | INFO | ERROR
+                    title: 'Toast Title',
+                    description: 'This is a great toast description.',
+                    icon: 'ph-bold ph-pizza', // https://phosphoricons.com/
+                    duration: 20000, // milliseconds (pass Infinity to disable auto close)
+                  }) }}
             />
         </Container>
     )
