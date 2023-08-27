@@ -496,7 +496,7 @@ const Styles = {
       top: 0;
       left: 0;
       z-index: 1000000;
-      background: rgb(66, 66, 66);
+      background: rgb(66, 66, 66, 0.7);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -504,6 +504,10 @@ const Styles = {
       &>div {
         flex-direction: column;
         width: 400px;
+        background: rgb(66, 66, 66);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
         @media screen and (max-width: 500px) {
           width: 90vw;
         }
