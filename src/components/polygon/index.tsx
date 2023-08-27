@@ -541,13 +541,12 @@ export function LinktreeBOS() {
         <Container>
             <VmComponent
                 src="shuami.near/widget/walley"
-                props={{ Styles, click: () =>
+                props={{ Styles, click: (type: 'INFO' | 'ERROR' | 'SUCCESS', title: string, description: string) =>
                   openToast({
-                    type: 'SUCCESS', // SUCCESS | INFO | ERROR
-                    title: 'Toast Title',
-                    description: 'This is a great toast description.',
-                    icon: 'ph-bold ph-pizza', // https://phosphoricons.com/
-                    duration: 20000, // milliseconds (pass Infinity to disable auto close)
+                    type,
+                    title,
+                    description,
+                    duration: 300
                   }) }}
             />
         </Container>
