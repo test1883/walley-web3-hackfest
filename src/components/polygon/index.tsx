@@ -209,7 +209,7 @@ const Styles = {
          background: none;
          color: #fff;
          padding:0px;
-         font-weight: 500;
+         font-weight: 800;
      `,
    
     NavLine : styled.span`
