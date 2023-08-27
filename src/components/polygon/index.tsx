@@ -369,6 +369,9 @@ const Styles = {
     `,
    
     WalleyImageContainer : styled.div`
+       display: flex;
+       align-items: center;
+       justify-content: center;
        text-align: center;
        width: 200px;
        height: 200px;
@@ -493,7 +496,7 @@ const Styles = {
       top: 0;
       left: 0;
       z-index: 1000000;
-      background: rgb(66, 66, 66, 0.7);
+      background: rgb(66, 66, 66);
       display: flex;
       justify-content: center;
       align-items: center;
@@ -501,9 +504,9 @@ const Styles = {
       &>div {
         flex-direction: column;
         width: 400px;
-      }
-      @media screen and (max-width: 500px) {
-        width: 90vw;
+        @media screen and (max-width: 500px) {
+          width: 90vw;
+        }
       }
     `,
    }
