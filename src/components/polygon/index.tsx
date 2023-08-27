@@ -131,6 +131,15 @@ const Styles = {
          @media screen and (max-width: 600px) {
            background-position: 70% 70%;
          }
+         .red {
+           background-color: #FF6A4C
+         }
+         .blue {
+           background-color: #487BE3;
+         }
+         .orange {
+           background-color: #FA9703;
+         }
      `,
    
     WalleyHomeHeader : styled.div`
@@ -229,7 +238,7 @@ const Styles = {
        font-weight: 500;
        font-size: 12px;
        width: 120px;
-       background-color: #424242;
+       background-color: #FA9703;
        border-radius: 30px;
        text-align: center;
        box-shadow: rgb(0, 0, 0, 0.19) 0px 10px 20px, rgb(0, 0, 0, 0.23) 0px 6px 6px;
