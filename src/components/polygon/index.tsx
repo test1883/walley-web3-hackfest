@@ -141,10 +141,10 @@ const Styles = {
            background-position: 70% 70%;
          }
          .red {
-           background-color: #FF6A4C
+           background-color: #FF6A4C;
          }
-         .blue {
-           background-color: #487BE3;
+         .grey {
+          background-color: rgb(66, 66, 66);
          }
          .orange {
            background-color: #FA9703;
