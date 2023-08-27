@@ -493,6 +493,14 @@ const Styles = {
      `,
    
     WalleyStoreBody : styled.div`
+       width: 100%;
+       padding: 0px 8px;
+       &>.txn {
+         text-align: left;
+         font-size: 15px;
+         font-weight: 600;
+         padding: 20px 0px 0px 0px;
+       }
      `,
     WalleyButtonRow: styled.div`
        display: flex;
