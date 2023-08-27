@@ -339,7 +339,7 @@ const Styles = {
        }
        &>input {
          margin-bottom: 5px;
-         border: 2px solid rgb(255, 255, 255, 0.4);
+         border: 1px solid rgb(255, 255, 255, 0.4);
        }
        div[type="button"] {
          border-radius: 20px;
@@ -380,7 +380,7 @@ const Styles = {
         }
         &>input {
           margin-bottom: 5px;
-          border: 2px solid rgb(255, 255, 255, 0.4);
+          border: 1px solid rgb(255, 255, 255, 0.4);
         }
         div[type="button"] {
           border-radius: 20px;
@@ -415,7 +415,7 @@ const Styles = {
        padding: 6px;
        border-radius: 20px;
        background: none;
-       border: 2px solid rgb(255, 255, 255, 0.4);
+       border: 1px solid rgb(255, 255, 255, 0.4);
        color: white;
      `,
    
