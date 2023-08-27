@@ -396,6 +396,7 @@ const Styles = {
    
     WalleyLabel : styled.p`
        width: 100%;
+       margin-bottom: 0px;
      `,
    
     WalleyStoreButton : styled.button`
@@ -477,7 +478,14 @@ const Styles = {
    
     WalleyStoreBody : styled.div`
      `,
-
+    WalleyButtonRow: styled.div`
+       display: flex;
+       flex-direction: row;
+       gap: 10px;
+       text-align: center;
+       justify-content: center;
+       margin-top: 5px;
+    `,
     TransactionModal: styled.div`
       width: 100vw;
       height: 100vh;
