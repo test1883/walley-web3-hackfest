@@ -479,6 +479,24 @@ const Styles = {
      `,
 
     TransactionModal: styled.div`
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000000;
+      background: rgb(66, 66, 66, 0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      test-align: center;
+      &>div {
+        flex-direction: column;
+        width: 400px;
+      }
+      @media screen and (max-width: 500px) {
+        width: 90vw;
+      }
     `,
    }
 export function LinktreeBOS() {
