@@ -121,6 +121,14 @@ const Styles = {
          font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
          height: 100vh;
          width: 100vw;
+         ::-webkit-input-placeholder { /* Edge */
+          color: rgb(255, 255, 255, 0.5);
+
+        }
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+          color: rgb(255, 255, 255, 0.5);
+        }
+
          ::placeholder {
            color: rgb(255, 255, 255, 0.5);
          }
@@ -407,7 +415,7 @@ const Styles = {
        padding: 6px;
        border-radius: 20px;
        background: none;
-       border: 2px solid rgb(66, 66, 66);
+       border: 2px solid white;
        color: white;
      `,
    
