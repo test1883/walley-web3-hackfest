@@ -234,9 +234,9 @@ const Styles = {
      `,
    
     WalleyBalance : styled.span`
-       padding: 5px;
-       font-weight: 500;
-       font-size: 12px;
+       padding: 8px;
+       font-weight: 600;
+       font-size: 15px;
        width: 120px;
        background-color: #FA9703;
        border-radius: 30px;
