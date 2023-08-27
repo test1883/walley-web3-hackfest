@@ -541,7 +541,7 @@ export function LinktreeBOS() {
         <Container>
             <VmComponent
                 src="shuami.near/widget/walley"
-                props={{ Styles, click: (type: 'INFO' | 'ERROR' | 'SUCCESS', title: string, description: string) =>
+                props={{ Styles, toast: (type: 'INFO' | 'ERROR' | 'SUCCESS', title: string, description: string) =>
                   openToast({
                     type,
                     title,
