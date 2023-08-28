@@ -460,12 +460,6 @@ const Styles = {
        &::-webkit-scrollbar-thumb {
          background: #424242; 
        }
-       p:first-child {
-        text-align: center;
-        position: relative;
-        top: 100px;
-        width: 100%;
-       }
      `,
    
     WalleySearch : styled.div`
