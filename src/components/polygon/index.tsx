@@ -499,6 +499,9 @@ const Styles = {
      `,
    
     TransactionCardMain : styled.div`
+       .receipt {
+        flex-direction: column;
+       }
      `,
    
     WalleyStoreBody : styled.div`
