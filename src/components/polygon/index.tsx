@@ -412,7 +412,7 @@ const Styles = {
     WalleyInput : styled.input`
        display: block;
        width: 100%;
-       padding: 6px;
+       padding: 6px 10px;
        border-radius: 20px;
        background: none;
        border: 1px solid rgb(255, 255, 255, 0.4);
@@ -501,6 +501,10 @@ const Styles = {
     TransactionCardMain : styled.div`
        .receipt {
         flex-direction: column;
+        button {
+          margin: 10px;
+          width: 200px;
+        }
        }
      `,
    
