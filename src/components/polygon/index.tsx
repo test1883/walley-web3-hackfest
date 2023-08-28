@@ -206,11 +206,15 @@ const Styles = {
    
     WalleyNavbarButton : styled.button`
          border: none;
-         text-align: left;
+         text-align: center;
          background: none;
          color: #fff;
-         padding:0px;
+         padding:7px;
          font-weight: 800;
+         border-radius: 20px;
+         border: 0px;
+         box-shadow: rgb(0, 0, 0, 0.19) 0px 10px 20px, rgb(0, 0, 0, 0.23) 0px 6px 6px;
+         
      `,
    
     NavLine : styled.span`
@@ -302,11 +306,11 @@ const Styles = {
        color: white;
        display: block;
        width: 100%;
-       border-radius: 20px;
        padding: 7px;
+       border-radius: 20px;
        border: 0px;
-       font-weight: 500;
        box-shadow: rgb(0, 0, 0, 0.19) 0px 10px 20px, rgb(0, 0, 0, 0.23) 0px 6px 6px;
+       font-weight: 500;
      
      `,
    
