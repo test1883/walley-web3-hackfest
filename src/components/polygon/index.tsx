@@ -180,6 +180,7 @@ const Styles = {
      `,
    
     WalleyNavbar : styled.div`
+         margin: 5px 0px;
          padding: 15px;
          display: flex;
          flex-direction: column;
@@ -215,7 +216,7 @@ const Styles = {
     NavLine : styled.span`
        width: 1px;
        height: 70px;
-       background: white;
+       background: rgb(255, 255, 255, 0.4);
        margin: 4px 0 4px 0;
        @media screen and (max-width: 600px) {
          display: none;
@@ -504,6 +505,9 @@ const Styles = {
         button {
           margin: 10px;
           width: 200px;
+        }
+        img {
+          max-height: 70vh;
         }
        }
      `,
