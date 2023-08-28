@@ -328,7 +328,7 @@ const Styles = {
        box-shadow: rgb(0, 0, 0, 0.19) 0px 10px 20px, rgb(0, 0, 0, 0.23) 0px 6px 6px;
        width: 400px;
        border-radius: 20px;
-       text-align: center;
+       text-align: left;
        display: grid;
        grid-gap: 5px;
        grid-template-columns: repeat(1, 1fr);
@@ -367,7 +367,7 @@ const Styles = {
         box-shadow: rgb(0, 0, 0, 0.19) 0px 10px 20px, rgb(0, 0, 0, 0.23) 0px 6px 6px;
         width: 400px;
         border-radius: 20px;
-        text-align: center;
+        text-align: left;
         display: grid;
         grid-gap: 5px;
         grid-template-columns: repeat(1, 1fr);
