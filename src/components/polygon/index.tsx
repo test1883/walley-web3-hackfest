@@ -464,6 +464,7 @@ const Styles = {
         text-align: center;
         position: relative;
         top: 100px;
+        width: 100%;
        }
      `,
    
