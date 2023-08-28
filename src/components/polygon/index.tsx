@@ -533,7 +533,7 @@ const Styles = {
       test-align: center;
       &>div {
         flex-direction: column;
-        width: 600px;
+        width: 500px;
         background: rgb(66, 66, 66);
         text-align: left;
         align-items: center;
