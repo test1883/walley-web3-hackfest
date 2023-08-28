@@ -535,7 +535,7 @@ const Styles = {
         flex-direction: column;
         width: 400px;
         background: rgb(66, 66, 66);
-        text-align: center;
+        text-align: left;
         align-items: center;
         justify-content: center;
         @media screen and (max-width: 500px) {
