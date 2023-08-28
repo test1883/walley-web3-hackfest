@@ -9,10 +9,10 @@ type Props = {
 export function MetaTags(props: Props) {
   return (
     <Head>
-      <title>{props.title}</title>
-      <meta name="description" content={props.description} />
-      <meta property="og:title" content={props.title} />
-      <meta property="og:description" content={props.description} />
+      <title>Walley - Go Phoneless</title>
+      <meta name="description" content="Go Phoneless in this Cashless Era!" />
+      <meta property="og:title" content="Walley - Go Phoneless" />
+      <meta property="og:description" content="Go Phoneless in this Cashless Era!" />
       <meta property="og:type" content="website" />
       <meta content={props.image || `${process.env.NEXT_PUBLIC_HOSTNAME}/bos-meta.png`} property="og:image" />
       <meta name="twitter:card" content="summary_large_image" />
