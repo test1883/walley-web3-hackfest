@@ -229,7 +229,7 @@ const Styles = {
     NavLineLast : styled.span`
        width: 1px;
        height: 100%;
-       background: white;
+       background: rgb(255, 255, 255, 0.4);
        margin: 4px 0 4px 0;
        @media screen and (max-width: 600px) {
          display: none;
@@ -459,6 +459,11 @@ const Styles = {
        
        &::-webkit-scrollbar-thumb {
          background: #424242; 
+       }
+       p:first-child {
+        text-align: center;
+        position: relative;
+        top: 100px;
        }
      `,
    
