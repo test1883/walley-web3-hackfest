@@ -517,7 +517,7 @@ const Styles = {
        gap: 10px;
        text-align: center;
        justify-content: center;
-       margin-top: 5px;
+       padding: 5px 0px;
     `,
     TransactionModal: styled.div`
       width: 100vw;
